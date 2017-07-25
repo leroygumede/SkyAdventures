@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:SkyAdventures" x:Class="SkyAdventures.SkyAdventuresPage" BackgroundColor="#253e67">
+    <StackLayout>
+        <StackLayout HeightRequest="50" Orientation="Horizontal" Padding="20" BackgroundColor="#253e67">
+            <Label Text="SKY ADVENTURES" TextColor="White" Font="Bold, 30" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
+        </StackLayout>
+        <ScrollView>
+            <Grid RowSpacing="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="120" />
+                    <RowDefinition Height="120" />
+                    <RowDefinition Height="120" />
+                    <RowDefinition Height="120" />
+                    <RowDefinition Height="120" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <AbsoluteLayout Grid.Row="0"  Grid.ColumnSpan="2">
+                    <Image Source="background1" Aspect="Fill" AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All" />
+                    <StackLayout Grid.Row="1" Grid.ColumnSpan="2" Orientation="Horizontal" Padding="20" AbsoluteLayout.LayoutBounds=".5,.5,1,1" AbsoluteLayout.LayoutFlags="All">
+                        <Image Source="logo" WidthRequest="55" HorizontalOptions="Start" Margin="0, 0, 30, 0" />
+                        <Label Text="MOUNT&#xD;EVEREST" TextColor="White" Font="Bold, 30" HorizontalOptions="Start" />
+                    </StackLayout>
+                </AbsoluteLayout>
+                <AbsoluteLayout Grid.Row="1" Grid.ColumnSpan="2">
+                    <Image Source="background2" Aspect="Fill" AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All" />
+                    <StackLayout Grid.Row="1" Grid.ColumnSpan="2" Orientation="Horizontal" Padding="20" AbsoluteLayout.LayoutBounds=".5,.5,1,1" AbsoluteLayout.LayoutFlags="All">
+                        <Image Source="logo" WidthRequest="55" HorizontalOptions="Start" Margin="0, 0, 30, 0" />
+                        <Label Text="GREAT&#xD;BARRIER" TextColor="White" Font="Bold, 30" HorizontalOptions="Start" />
+                    </StackLayout>
+                </AbsoluteLayout>
+                <AbsoluteLayout Grid.Row="2" Grid.ColumnSpan="2">
+                    <Image Source="background3" Aspect="Fill" AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All" />
+                    <StackLayout Grid.Row="1" Grid.ColumnSpan="2" Orientation="Horizontal" Padding="20" AbsoluteLayout.LayoutBounds=".5,.5,1,1" AbsoluteLayout.LayoutFlags="All">
+                        <Image Source="logo" WidthRequest="55" HorizontalOptions="Start" Margin="0, 0, 30, 0" />
+                        <Label Text="RAIN&#xD;FOREST" TextColor="White" Font="Bold, 30" HorizontalOptions="Start" />
+                    </StackLayout>
+                </AbsoluteLayout>
+                <AbsoluteLayout Grid.Row="3" Grid.ColumnSpan="2">
+                    <Image Source="background4" Aspect="Fill" AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All" />
+                    <StackLayout Grid.Row="1" Grid.ColumnSpan="2" Orientation="Horizontal" Padding="20" AbsoluteLayout.LayoutBounds=".5,.5,1,1" AbsoluteLayout.LayoutFlags="All">
+                        <Image Source="logo" WidthRequest="55" HorizontalOptions="Start" Margin="0, 0, 30, 0" />
+                        <Label Text="GRAND&#xD;CANYON" TextColor="White" Font="Bold, 30" HorizontalOptions="Start" />
+                    </StackLayout>
+                </AbsoluteLayout>
+                <AbsoluteLayout Grid.Row="4" Grid.ColumnSpan="2">
+                    <Image Source="background5" Aspect="Fill" AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All" />
+                    <StackLayout Grid.Row="1" Grid.ColumnSpan="2" Orientation="Horizontal" Padding="20" AbsoluteLayout.LayoutBounds=".5,.5,1,1" AbsoluteLayout.LayoutFlags="All">
+                        <Image Source="logo" WidthRequest="55" HorizontalOptions="Start" Margin="0, 0, 30, 0" />
+                        <Label Text="THE&#xD;SAHARA" TextColor="White" Font="Bold, 30" HorizontalOptions="Start" />
+                    </StackLayout>
+                </AbsoluteLayout>
+            </Grid>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>
