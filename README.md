@@ -2,9 +2,9 @@
 convert from psd to actual UI, a lot more updates coming
 
  
-### Framework
+### Spec
 * Software:  Xamarin
-* Framework: ---
+* Framework: Xmarin Forms
 * Version:    "version": "1.0"
 * Platforms:  IOS , ANDROID
  
